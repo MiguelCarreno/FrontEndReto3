@@ -157,7 +157,7 @@
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
                                             <label style="color: black;"><b>ID</b></label>
                                             <input type="number" class="form-control is-valid" id="idUser" maxlength="2"
-                                              placeholder="Type user id " minlength="1" onload="" required>
+                                              placeholder="id " minlength="1" onload="" required>
                                           </div> 
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
@@ -183,9 +183,9 @@
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>MES</b></label>
+                                            <label style="color: black;"><b>MES DE CUMPLEAÑOS</b></label>
                                             <input type="number" class="form-control is-valid" id="monthBirthtDayUser"
-                                              maxlength="2" placeholder="Ingresa  fecha" minlength="2"
+                                              maxlength="2" placeholder="Ingresa el mes" minlength="2"
                                               required>
                                           </div>
 
@@ -206,14 +206,14 @@
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
                                             <label style="color: black;"><b>EMAIL</b></label>
                                             <input type="email" class="form-control is-valid" id="emailUser"
-                                              maxlength="50" placeholder="Ingresa correo" minlength="1"
+                                              maxlength="50" placeholder="Ingresa el correo" minlength="1"
                                               onchange="ValidateEmail()" required>
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>PASSWORD</b></label>
+                                            <label style="color: black;"><b>CONTRASEÑA</b></label>
                                             <input type="password" class="form-control is-valid" id="passwordUser"
-                                              maxlength="50" placeholder="Ingresa contraseña" minlength="1"
+                                              maxlength="50" placeholder="Ingresa la contraseña" minlength="1"
                                               onchange="validatePassword()" required>
                                           </div>
 
@@ -223,56 +223,14 @@
                                               <option value="" selected>
                                                 Selecciona una zona
                                               </option>
-                                              <option value="Zona_1">
+                                              <option value="ZONA 1">
                                                 ZONA 1
                                               </option>
-                                              <option value="Zona_2">
+                                              <option value="ZONA 2">
                                                 ZONA 2 
                                               </option>
-                                              <option value="COMUNA_3_SAN_FRANCISCO">
+                                              <option value="ZONA 3">
                                                 ZONA 3
-                                              </option>
-                                              <option value="COMUNA_4_OCCIDENTAL">
-                                                ZONA 4
-                                              </option>
-                                              <option value="COMUNA_5_GARCIA_ROVIRA">
-                                                ZONA 5
-                                              </option>
-                                              <option value="COMUNA_6_LA_CONCORDIA">
-                                                ZONA 6
-                                              </option>
-                                              <option value="COMUNA_7_LA_CIUDADELA">
-                                                ZONA 7
-                                              </option>
-                                              <option value="COMUNA_8_SUR_OCCIDENTE">
-                                                ZONA 8
-                                              </option>
-                                              <option value="COMUNA_9_LA_PEDREGOSA">
-                                                ZONA 9
-                                              </option>
-                                              <option value="COMUNA_10_PROVENZA">
-                                                ZONA 10
-                                              </option>
-                                              <option value="COMUNA_11_SUR">
-                                                ZONA 11
-                                              </option>
-                                              <option value="COMUNA_12_CABECERA_DEL_LLANO">
-                                                ZONA 12
-                                              </option>
-                                              <option value="COMUNA_13_ORIENTAL">
-                                                ZONA 13
-                                              </option>
-                                              <option value="COMUNA_14_MORRORICO">
-                                                ZONA 14
-                                              </option>
-                                              <option value="COMUNA_15_CENTRO">
-                                                ZONA 15
-                                              </option>
-                                              <option value="COMUNA_16_LAGOS_DEL_CACIQUE">
-                                                ZONA 16
-                                              </option>
-                                              <option value="COMUNA_17_MUTIS">
-                                                ZONA 17
                                               </option>
                                             </select> 
                                           </div>
@@ -289,10 +247,11 @@
                                               <option value="ADM">
                                                 ADM
                                               </option>
-                                              <option value="COORS">
+                                              <option value="COORD">
                                                 COORD
                                               </option>
-                                              <option value="ASE">ASE</option>
+                                              <option value="ASE">
+                                                ASE</option>
                                             </select>
                                           </div>
 
@@ -346,7 +305,7 @@
                                           </div> -->
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>IDENTIFICATION</b></label>
+                                            <label style="color: black;"><b>IDENTIFICACIÓN</b></label>
                                             <input type="text" class="form-control is-valid" id="identificationUserU"
                                               maxlength="10" placeholder="Type user identification" minlength="1"
                                               onchange="validateIdentificacionU()" required>
@@ -354,111 +313,64 @@
 
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>NAME</b></label>
+                                            <label style="color: black;"><b>NOMBRE</b></label>
                                             <input type="text" class="form-control is-valid" id="nameUserU"
                                               maxlength="80" placeholder="Type user name" minlength="1"
                                               onchange="validateNameU()" required>
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>ADDRESS</b></label>
+                                            <label style="color: black;"><b>DIRECCIÓN</b></label>
                                             <input type="text" class="form-control is-valid" id="addressUserU"
                                               maxlength="30" placeholder="Type user address" minlength="1"
                                               onchange="validateAddressU()" required>
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>CELLPHONE</b></label>
+                                            <label style="color: black;"><b>CELULAR</b></label>
                                             <input type="text" class="form-control is-valid" id="cellphoneUserU"
                                               maxlength="10" placeholder="Type user cellphone" minlength="1"
                                               onchange="validateCellPhoneU()" required>
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>EMAIL</b></label>
+                                            <label style="color: black;"><b>CORREO</b></label>
                                             <input type="email" class="form-control is-valid" id="emailUserU"
                                               maxlength="50" placeholder="Type user email" minlength="1"
                                               onchange="ValidateEmailU()" required>
                                           </div>
 
                                           <div class="form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>PASSWORD</b></label>
+                                            <label style="color: black;"><b>CONTRASEÑA</b></label>
                                             <input type="password" class="form-control is-valid" id="passwordUserU"
                                               maxlength="50" placeholder="Type user password" minlength="1"
                                               onchange="validatePasswordU()" required>
                                           </div>
 
                                           <div class="input-group form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
-                                            <label style="color: black;"><b>CATEGORIA</b></label>
-                                              <input type="text" class="form-control is-valid" id="zoneUserU"
-                                                maxlength="10" placeholder="Type product category" minlength="1"
-                                                onload="" required>
-                                            </div>
-
-                                            <!--
-                                            <select class="form-control" name="zoneUserU" id="zoneUserU" required
+                                            <select class="form-control" name="zoneUserU" id="zoneUser" required
                                               style="height: auto">
                                               <option value="" selected>
-                                                Select a zone
+                                                Selecciona una zona
                                               </option>
-                                              <option value="COMUNA_1_NORTE">
-                                                COMUNA1 NORTE
+                                              <option value="ZONA 1">
+                                                ZONA 1
                                               </option>
-                                              <option value="COMUNA_2_NORTORIENTAL">
-                                                COMUNA 2 NORTORIENTAL
+                                              <option value="ZONA 2">
+                                                ZONA 2 
                                               </option>
-                                              <option value="COMUNA_3_SAN_FRANCISCO"> COMUNA 3 SAN FRANCISCO</option>
-                                              <option value="COMUNA_4_OCCIDENTAL">
-                                                COMUNA 4 OCCIENTAL
+                                              <option value="ZONA 3">
+                                                ZONA 3
                                               </option>
-                                              <option value="COMUNA_5_GARCIA_ROVIRA">
-                                                COMUNA 5 GARCIA ROVIRA
-                                              </option>
-                                              <option value="COMUNA_6_LA_CONCORDIA">
-                                                COMUNA 6 LA CONCORDIA
-                                              </option>
-                                              <option value="COMUNA_7_LA_CIUDADELA">
-                                                COMUNA 7 LA CIUDADELA
-                                              </option>
-                                              <option value="COMUNA_8_SUR_OCCIDENTE">
-                                                COMUNA 8 SUR OCCIDENTE
-                                              </option>
-                                              <option value="COMUNA_9_LA_PEDREGOSA">
-                                                COMUNA 9 LA PEDREGOSA
-                                              </option>
-                                              <option value="COMUNA_10_PROVENZA">
-                                                COMUNA 10 PROVENZA
-                                              </option>
-                                              <option value="COMUNA_11_SUR">
-                                                COMUNA 11 SUR
-                                              </option>
-                                              <option value="COMUNA_12_CABECERA_DEL_LLANO">
-                                                COMUNA 12 CABECERA DEL LLANO
-                                              </option>
-                                              <option value="COMUNA_13_ORIENTAL">
-                                                COMUNA 13 ORIENTAL
-                                              </option>
-                                              <option value="COMUNA_14_MORRORICO">
-                                                COMUNA 14 MORRORICO
-                                              </option>
-                                              <option value="COMUNA_15_CENTRO">
-                                                COMUNA 15 CENTRO
-                                              </option>
-                                              <option value="COMUNA_16_LAGOS_DEL_CACIQUE">
-                                                COMUNA 16 LAGOS DEL CACIQUE
-                                              </option>
-                                              <option value="COMUNA_17_MUTIS">
-                                                COMUNA 17 MUTIS
-                                              </option>
-                                            </select>
-                                          </div>-->
+                                            </select> 
+                                          </div>
 
                                           <div class="input-group form-group col-6 col-sm-6 col-md-6 col-lg-6	col-xl-6">
 
                                             <select class="form-control" name="typeUserU" id="typeUserU" required
                                               style="height: auto">
                                               <option value="" selected>
-                                                Selecciona un tipo
+                                                Selecciona tipo 
                                               </option>
                                               <option value="ADM">
                                                 ADM
@@ -466,7 +378,8 @@
                                               <option value="COORD">
                                                 COORD
                                               </option>
-                                              <option value="ASE">ASE</option>
+                                              <option value="ASE">
+                                                ASE</option>
                                             </select>
                                           </div>
                                         </div>

@@ -14,12 +14,12 @@ function pintarRespuesta(respuesta) {
 
         <th style='width: auto; background-color: #637007; color: white;' scope='col'
             align='center'>
-            <center>IDENTIFICATION</center>
+            <center>IDENTIFICACIÓN</center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> NAME</center>
+            <center> NONMBRE</center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
@@ -34,12 +34,12 @@ function pintarRespuesta(respuesta) {
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> ADDRESS</center>
+            <center> DIRECCIÓN</center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> CELLPHONE</center>
+            <center> CELULAR</center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
@@ -49,21 +49,21 @@ function pintarRespuesta(respuesta) {
        
         <th style='width: 10%; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> ZONE</center>
+            <center> ZONA</center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> TYPE</center>
+            <center> TIPO DE USUARIO/center>
         </th>
 
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> EDIT</center>
+            <center> EDITAR</center>
         </th>
         <th style='width: 20%; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> DELETE</center>
+            <center> ELIMINAR</center>
         </th>
     </thead>
 `;
@@ -91,9 +91,9 @@ function pintarRespuesta(respuesta) {
       sessionStorage.setItem('email', respuesta[i].email)
 
 
-      myTable += "<td align='center'><button data-toggle='modal' data-target='#MymodalUpdate' class='btn btn-outline-success' onclick='consultarUser(" + respuesta[i].id + ",\"" + respuesta[i].email + "\")'> <img src='https://image.flaticon.com/icons/png/512/104/104668.png' width='50' height='30'>EDIT</button></td>";
+      myTable += "<td align='center'><button data-toggle='modal' data-target='#MymodalUpdate' class='btn btn-outline-success' onclick='consultarUser(" + respuesta[i].id + ",\"" + respuesta[i].email + "\")'> <img src='https://img.icons8.com/color/48/000000/edit-user-male.png' width='50' height='30'>EDITAR</button></td>";
 
-      myTable += "<td align='center'><button  class='btn btn-outline-danger' onclick='deleteUser(" + respuesta[i].id + ",\"" + respuesta[i].email + "\")'> <img src='https://img.icons8.com/wired/64/000000/filled-trash.png' width='30' height='30'/>DELETE</button></td>";
+      myTable += "<td align='center'><button  class='btn btn-outline-danger' onclick='deleteUser(" + respuesta[i].id + ",\"" + respuesta[i].email + "\")'> <img src='https://img.icons8.com/color/48/000000/remove-user-male--v1.png' width='30' height='30'/>ELIMINAR</button></td>";
 
       myTable += "</tr></tbody>";
 

@@ -83,42 +83,42 @@ function drawProducts(respuesta) {
     <thead>
         <th style='width: auto; background-color: #637007; color: white; ' scope='col'
             align='center'>
-            <center>REFERENCE</center>
+            <center>REFERENCIA</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white;' scope='col'
             align='center'>
-            <center>CATEGORY</center>
+            <center>CATEGORIA</center>
         </th>
 
         <th style='width: 30%; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> DESCRIPTION</center>
+            <center> DESCRIPCIÓN</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> PRICE</center>
+            <center> PRECIO</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> PHOTOGRAPHY</center>
+            <center> FOTOGRAFIA</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> STOCK</center>
+            <center> DISPONIBILIDAD</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> QUANTITY</center>
+            <center> CANTIDAD</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> UNDO</center>
+            <center> DESHACER</center>
         </th>
     </thead>
 `;

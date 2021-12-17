@@ -186,7 +186,7 @@ function pintarDetalleOrden(respuesta) {
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> PRICE</center>
+            <center> PRECIO</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
