@@ -203,7 +203,7 @@ async function createUser() {
       const responseUpdate = await fetch(urlUpdate, fetchOptions);
       const responseConvertedUpdate = await responseUpdate.json();
       alert("Create successuful");
-      window.location.href = "/Users.html";
+      window.location.href = "Users.html";
 
     } catch {
       window.location.reload()

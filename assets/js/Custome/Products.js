@@ -193,7 +193,7 @@ async function createProduct() {
             const responseUpdate = await fetch(urlUpdate, fetchOptions);
             const responseConvertedUpdate = await responseUpdate.json();
             alert("Create successuful");
-            window.location.href = "/Products.html";
+            window.location.href = "Products.html";
 
         } catch {
             window.location.reload()
