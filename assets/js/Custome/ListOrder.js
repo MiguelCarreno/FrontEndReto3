@@ -9,7 +9,7 @@ function pintarRespuesta(respuesta) {
     <thead>
         <th style='width: auto; background-color: #637007; color: white; ' scope='col'
             align='center'>
-            <center>IDENTIFICATION</center>
+            <center>IDENTIFICACION</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white;' scope='col'
@@ -90,27 +90,27 @@ function pintarDetalle(respuesta) {
     <thead>
         <th style='width: 10%; background-color: #637007; color: white; ' scope='col'
             align='center'>
-            <center>DATE</center>
+            <center>FECHA</center>
         </th>
 
         <th style='width: 10%; background-color: #637007; color: white;' scope='col'
             align='center'>
-            <center>No. ORDER</center>
+            <center>No. ORDEN</center>
         </th>
 
         <th style='width: 10%; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> STATUS</center>
+            <center> ESTADO</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> CHANGE STATUS</center>
+            <center> CAMBIAR ESTADO</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> SAVE</center>
+            <center> GUARDAR</center>
         </th>
        
     </thead>
@@ -157,31 +157,31 @@ function pintarDetalleOrden(respuesta) {
     <thead>
         <th style='width: auto; background-color: #637007; color: white; ' scope='col'
             align='center'>
-            <center>REFERENCE</center>
+            <center>REFERENCIA</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; ' scope='col'
             align='center'>
-            <center>PHOTOGRAPHY</center>
+            <center>FOTIGRAFIA</center>
         </th>
 
        
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> CATEGORY</center>
+            <center> CATEGORIA</center>
         </th>
 
 
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> DESCRIPTION</center>
+            <center> DESCRIPCION</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
             scope='col' align='center'>
-            <center> AVAILABILITY</center>
+            <center> DISPONIBILIDAD</center>
         </th>
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
@@ -191,7 +191,7 @@ function pintarDetalleOrden(respuesta) {
 
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
         scope='col' align='center'>
-            <center> QUANTITY</center>
+            <center> CANTIDAD</center>
         </th>
       
         <th style='width: auto; background-color: #637007; color: white; line-height: 100%'
